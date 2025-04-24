@@ -1,4 +1,13 @@
-# Group 2: oversampling by SMOTENC
+# Group 2:
+# 
+# Oversampling (SMOTENC) was applied to the training set in this group. 
+# Specifically, all categorical attributes intended for one-hot encoding 
+# were first label encoded. Oversampling was then performed using SMOTENC, 
+# which is suitable for handling nominal attributes without introducing 
+# unintended ordinal relationships that may result from label encoding. 
+# After oversampling, the data were transformed back to their original 
+# format and subsequently passed through the feature engineering work 
+# to produce the training set for Group 2.
 
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder

@@ -1,4 +1,10 @@
 # Group 4 read additional data & Split the testset
+# 
+# A total of 3,700 instances were randomly selected 
+# from bank_full.csv and added to bank.csv as 
+# additional records. The resulting dataset 
+# augmented by real additional records was then 
+# used as the training set for Group 4.
 
 import pandas as pd
 from utils.feature_engineering_utils import transform_bank_features

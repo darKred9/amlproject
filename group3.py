@@ -1,4 +1,11 @@
-## Group 3 random oversampling
+# Group 3 random oversampling
+# 
+# Oversampling (Random Oversampling) was also applied 
+# to the training set in this group. Specifically, 
+# random oversampling was performed directly on the 
+# original bank.csv dataset. The resulting data were 
+# then passed through the feature engineering work 
+# to generate the training set for Group 3.
 
 import pandas as pd
 from imblearn.over_sampling import RandomOverSampler
